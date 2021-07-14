@@ -1,0 +1,87 @@
+@font-face {
+	font-family: "Inter-Regular";
+	src: url(../fonts/Inter-Regular.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Inter-Medium";
+	src: url(../fonts/Inter-Medium.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Inter-Bold";
+	src: url(../fonts/Inter-Bold.otf);
+	font-weight: normal;
+}
+
+
+h1 {
+	font-family: Inter-Medium;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px !important;
+	line-height: 58px;
+	color: #000000;
+	width: 50vw;
+}
+
+h2 {
+	font-family: Inter-Medium;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	width: 50vw;
+	margin-bottom: 40px;
+}
+
+
+p {
+	font-family: Inter-Regular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	width: 70vw;
+}
+
+a {
+	font-family: Inter-Regular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+span {
+	font-family: Inter-Bold;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+
+.container {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.block {
+	margin-bottom: 60px;
+}
+
+
