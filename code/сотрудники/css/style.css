@@ -1,0 +1,110 @@
+@font-face {
+	font-family: "Inter-Regular";
+	src: url(../fonts/Inter-Regular.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Inter-Medium";
+	src: url(../fonts/Inter-Medium.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Inter-Bold";
+	src: url(../fonts/Inter-Bold.otf);
+	font-weight: normal;
+}
+
+.team p {
+	font-family: Inter-Regular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.team span {
+	font-family: Inter-Bold;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.team {
+	width: 80vw;
+	margin: 0 auto;
+}
+
+.team-photo-container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.team-left-box, .team-left-box  {
+	max-width: 654px;
+}
+
+.team-left-box .team-photo {
+	background-image: url(../img/left.png);
+}
+
+.team-right-box .team-photo {
+	background-image: url(../img/right.png);
+}
+
+.team-left-box .team-blur-description {
+	background-image: url(../img/left-blur.png);
+	height: 60px;
+	width: 532px;
+}
+
+
+.team-right-box .team-blur-description {
+	background-image: url(../img/right-blur.png);
+	height: 60px;
+	width: 318px;
+}
+
+.team-blur-description {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.team-description {
+	padding: 403px 29px;
+}
+
+.team-text-description {
+	padding: 5px 7px;
+}
+
+
+.team-photo {
+	max-width: 654px;
+	height: 514px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 14px;
+
+}
+
+.team-about-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+.team-about-text {
+	border: 1px solid black;
+	border-radius: 14px;
+	padding: 20px 28px;
+}
+
