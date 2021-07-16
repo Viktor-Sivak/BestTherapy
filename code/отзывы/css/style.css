@@ -1,0 +1,84 @@
+@font-face {
+	font-family: "Inter-Regular";
+	src: url(../fonts/Inter-Regular.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Inter-Medium";
+	src: url(../fonts/Inter-Medium.otf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: "Inter-Bold";
+	src: url(../fonts/Inter-Bold.otf);
+	font-weight: normal;
+}
+
+body {
+	background-color: gray;
+}
+
+.reviews h1 {
+	font-family: Inter-Bold;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 48px !important;
+	line-height: 58px;
+	color: #000000;
+}
+
+.reviews h2 {
+	font-family: Inter-Medium;
+	font-family: Inter;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 36px;
+	color: #000000;
+	width: 50vw;
+}
+
+.reviews p {
+	font-family: Inter-Regular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.reviews span {
+	font-family: Inter-Bold;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+}
+
+.reviews {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.reviews-card {
+	max-width: 315px;
+	border: 1px solid black;
+	border-radius: 14px;
+	padding: 35px 25px;
+	margin-left: 53px;
+}
+
+.reviews-card-subhead {
+	border-top: 1px solid #000;
+	border-bottom: 1px solid #000;
+}
+
+.reviews-card-subhead {
+	margin-top: 7px;
+	margin-bottom: 7px;
+}
+
+
