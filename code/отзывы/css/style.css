@@ -16,9 +16,6 @@
 	font-weight: normal;
 }
 
-body {
-	background-color: gray;
-}
 
 .reviews h1 {
 	font-family: Inter-Bold;
@@ -64,11 +61,10 @@ body {
 }
 
 .reviews-card {
-	max-width: 315px;
 	border: 1px solid black;
 	border-radius: 14px;
-	padding: 35px 25px;
-	margin-left: 53px;
+	padding: 35px 25px 10px;
+	margin-right: 53px;
 }
 
 .reviews-card-subhead {
@@ -79,6 +75,28 @@ body {
 .reviews-card-subhead {
 	margin-top: 7px;
 	margin-bottom: 7px;
+}
+
+.reviews-slider {
+	position: relative;
+}
+
+.reviews-slider .slick-arrow {
+	position: absolute;
+	font-size: 0;
+	width: 35px;
+	height: 35px;
+	top: 600px;
+	right: 53px;
+}
+
+
+.reviews-slider .slick-arrow.slick-next {
+	background-image: url(../img/next-arrow.svg);
+}
+
+.reviews-slider .slick-next:before {
+	display: none;
 }
 
 
