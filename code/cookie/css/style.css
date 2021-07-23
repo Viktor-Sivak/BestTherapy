@@ -16,7 +16,7 @@
 	font-weight: normal;
 }
 
-h1 {
+.cookie-block h1 {
 	font-family: Inter-Medium;
 	font-family: Inter;
 	font-style: normal;
@@ -27,7 +27,7 @@ h1 {
 	margin-bottom: 40px;
 }
 
-p {
+.cookie-block p {
 	font-family: Inter-Regular;
 	font-style: normal;
 	font-weight: 500;
@@ -37,7 +37,7 @@ p {
 	width: 70vw;
 }
 
-a {
+.cookie-block a {
 	font-family: Inter-Regular;
 	font-style: normal;
 	font-weight: 500;
@@ -47,11 +47,11 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
+.cookie-block a:hover {
 	text-decoration: none;
 }
 
-td {
+.cookie-block td {
 	font-family: Inter-Regular;
 	font-style: normal;
 	font-weight: 500;
@@ -60,7 +60,7 @@ td {
 	color: #000000;
 }
 
-span {
+.cookie-block span {
 	font-family: Inter-Bold;
 	font-style: normal;
 	font-weight: 500;
@@ -69,17 +69,28 @@ span {
 	color: #000000;
 }
 
+.cookie-block li {
+	font-family: Inter-Regular;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 24px;
+	color: #000000;
+	width: 70vw;
+	margin-bottom: 8px;
+}
 
-.container {
+
+.cookie-container {
 	width: 80vw;
 	margin: 0 auto;
 }
 
-.block {
+.cookie-block {
 	margin-bottom: 60px;
 }
 
-.table {
+.cookie-table {
 	width: 100%;
 	border: 1px solid #D5B46E;
 	border-collapse: collapse

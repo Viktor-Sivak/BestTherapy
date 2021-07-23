@@ -17,7 +17,7 @@
 }
 
 
-h1 {
+.privacy-block h1 {
 	font-family: Inter-Medium;
 	font-style: normal;
 	font-weight: 600;
@@ -27,7 +27,7 @@ h1 {
 	width: 50vw;
 }
 
-h2 {
+.privacy-block h2 {
 	font-family: Inter-Medium;
 	font-family: Inter;
 	font-style: normal;
@@ -40,7 +40,7 @@ h2 {
 }
 
 
-p {
+.privacy-block p {
 	font-family: Inter-Regular;
 	font-style: normal;
 	font-weight: 500;
@@ -50,7 +50,7 @@ p {
 	width: 70vw;
 }
 
-a {
+.privacy-block a {
 	font-family: Inter-Regular;
 	font-style: normal;
 	font-weight: 500;
@@ -60,12 +60,12 @@ a {
 	text-decoration: underline;
 }
 
-a:hover {
+.privacy-block a:hover {
 	text-decoration: none;
 }
 
 
-span {
+.privacy-block span {
 	font-family: Inter-Bold;
 	font-style: normal;
 	font-weight: 500;
@@ -75,12 +75,12 @@ span {
 }
 
 
-.container {
+.privacy-container {
 	width: 80vw;
 	margin: 0 auto;
 }
 
-.block {
+.privacy-block {
 	margin-bottom: 60px;
 }
 
